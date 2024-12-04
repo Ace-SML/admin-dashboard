@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template: 60px 30px 60px 60px 60px 60px 60px 60px 30px / 22% 26% 26% 22%;
+  background-color: whitesmoke;
+}
+
+.container > div {
+  border: 1px solid;
+}
+
+p {
+  display: flex;
+}
+
+p > img {
+  height: 20px;
+  margin: 0 7%;
+}
+
+#dashboard {
+  background: dodgerblue;
+  grid-row: 1 / 10;
+}
+
+#t-nav {
+  grid-area: 1 / 2 / 3 / 5;
+}
+
+#project1 {
+  grid-row: 3 / 5;
+}
+
+#project2 {
+  grid-row: 3 / 5;
+}
+
+#project3 {
+  grid-row: 5 / 7;
+}
+
+#project4 {
+  grid-row: 5 / 7;
+}
+
+#project5 {
+  grid-row: 7 / 9;
+}
+
+#project6 {
+  grid-row: 7 / 9;
+}
+#announcement {
+  grid-row: 3 / 6;
+}
+
+#trending {
+  grid-row: 6 / 9;
+}
