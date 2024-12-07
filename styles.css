@@ -1,11 +1,123 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 22% 78%;
+}
+
+.side-bar {
+  height: 100vh;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.st {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  margin-bottom: 16%;
+}
+
+.est {
+  display: flex;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.first {
+  height: 36px;
+  margin: 0 3% 0 2%;
+}
+
+img[src^="svg/"] {
+  height: 20px;
+  margin: 0 6% 0 5%;
+}
+
+.main-view {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  background-color: blueviolet;
+}
+
+.nav-bar {
+  height: 20vh;
+  background-color: white;
+}
+
+.dashboard-content {
+  height: 80vh;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  gap: 20px;
+  padding: 20px;
+}
+
+.projects > p {
+  font-size: 20px;
+}
+
+.projects-container {
+  height: 100%;
+  background-color: bisque;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.project-card {
+  /* height: 30%; */
+  background-color: brown;
+  border-radius: 8px;
+  border-left-color: 4px solid orange;
+}
+
+.trend-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  background-color: aqua;
+}
+
+.trend-cards {
+  /* height: 45%; */
+  background-color: yellow;
+}
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: bisque;
 }
 
 .container {
   display: grid;
-  grid-template: 60px 30px 60px 60px 60px 60px 60px 60px 30px / 22% 26% 26% 22%;
-  background-color: whitesmoke;
+  height: 100%;
+  width: 100%;
+  grid-template: 60px 30px 60px 60px 60px 60px 60px 60px 30px / 22% 26% 26% 26%;
+  background-color: orangered;
 }
 
 .container > div {
@@ -16,7 +128,7 @@ p {
   display: flex;
 }
 
-p > img {
+img[src^="svg/"] {
   height: 20px;
   margin: 0 7%;
 }
@@ -24,14 +136,26 @@ p > img {
 #dashboard {
   background: dodgerblue;
   grid-row: 1 / 10;
+  font-size: 1.1em;
+  color: white;
+  height: 100vh;
 }
 
 #t-nav {
   grid-area: 1 / 2 / 3 / 5;
+  width: 100%;
+  height: 20vh;
+  border-color: rgb(108, 236, 34);
+}
+
+.enter {
+  width: 40%;
 }
 
 #project1 {
   grid-row: 3 / 5;
+  margin: 8px;
+  height: 28vh;
 }
 
 #project2 {
@@ -59,4 +183,4 @@ p > img {
 
 #trending {
   grid-row: 6 / 9;
-}
+} */
