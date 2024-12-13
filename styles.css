@@ -37,6 +37,10 @@ body {
   margin: 5% 0;
 }
 
+.set {
+  margin-top: 15%;
+}
+
 .first {
   height: 36px;
   margin: 0 3% 0 2%;
@@ -74,7 +78,7 @@ img[src^="svg/"] {
 }
 
 .projects-container {
-  height: 100%;
+  height: 90%;
   background-color: rgb(219, 230, 240);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -109,19 +113,72 @@ img[src^="svg/"] {
   padding-right: 20px;
 }
 .project-card-icon-bx > img {
-  margin: 0 3%;
+  margin: 5% 3% 0 3%;
 }
 .trend-container {
-  height: 100%;
+  height: 90%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 20px;
-  background-color: aqua;
+  gap: 12px;
+}
+
+.trend-card-headin {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.trend-card-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px;
+}
+
+.trend-card-desc {
+  font-size: 12px;
+  margin: 4px;
+}
+
+.line {
+  border: 1px solid rgb(194, 194, 194);
+  margin: 4% 0;
 }
 
 .trend-cards {
-  /* height: 45%; */
-  background-color: yellow;
+  height: 90%;
+  background-color: white;
+  border-radius: 8px;
+  margin-right: 8%;
+  padding: 10px;
+}
+
+.trend-each {
+  display: flex;
+  align-items: center;
+  margin: 1% 0;
+}
+
+.trend-each > img {
+  margin: 0 5% 0 3%;
+  border-radius: 50%;
+}
+
+.username {
+  font-size: 13px;
+}
+
+.title {
+  font-size: 13px;
+  color: rgb(156, 155, 155);
+  margin-bottom: 4%;
+}
+
+.each {
+  background-color: blue;
+  border-radius: 50%;
+  border: 1px solid blue;
+  width: 20%;
+  height: 15%;
 }
 
 /* * {
